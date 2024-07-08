@@ -12,3 +12,4 @@ Technologies Used:
 1) HTML
 2) CSS
 3) JavaScript
+![Screenshot 2024-07-09 010135](https://github.com/Ansh00l/AlgoWizz/assets/106447222/0786718e-0f25-4c70-be2c-264d1b2af9fb)
