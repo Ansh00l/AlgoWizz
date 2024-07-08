@@ -1,0 +1,165 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 244, 244);
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: rgb(76, 175, 80);
+    padding: 20px;
+    text-align: center;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro {
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons .btn {
+    padding: 10px 20px;
+    background-color: rgb(0, 140, 186);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.buttons .btn:hover {
+    background-color: rgb(0, 95, 117);
+}
+
+
+
+.developer-info {
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.developer-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.developer-info p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.developer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.developer-links .dev-link {
+    color: rgb(0, 140, 186);
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.developer-links .dev-link:hover {
+    color: rgb(0, 95, 117);
+}
+
+button#darkMode {
+    font-size: larger;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(68, 68, 68);
+    color: rgb(201, 186, 105);
+    border-radius: 25%;
+
+}
+button#darkMode:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+footer {
+    background-color: rgb(76, 175, 80);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Dark mode styles */
+body.dark {
+    background-color: rgb(18, 18, 18);
+    color: white;
+}
+
+header.dark {
+    background-color: rgb(51, 51, 51);
+}
+
+.intro.dark {
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+body.dark .btn {
+    background-color: rgb(68, 68, 68);
+}
+
+body.dark .btn:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+
+
+.developer-info.dark {
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+body.dark button#darkMode {
+    background-color: rgb(0, 140, 186);
+    color: gold;
+}
+
+body.dark button#darkMode:hover {
+    background-color: rgb(0, 95, 117);
+}
+
+footer.dark {
+    background-color: rgb(51, 51, 51);
+}

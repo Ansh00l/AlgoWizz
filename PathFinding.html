@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dijkstra's Algorithm Grid Visualizer</title>
+    <link rel="stylesheet" href="PathFindingStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    <header id="headingContainer">
+        <h1>Dijkstra's Algorithm Grid Visualizer</h1>    
+    </header>
+    <main class="container">
+        <div class="grid" id="grid"></div>
+        <div class="controls">
+            <button id="startButton">Set Start Node</button>
+            <button id="endButton">Set End Node</button>
+            <button id="obstacleButton">Draw Obstacles</button>
+            <button id="findPathButton">Find Path</button>
+            <button id="resetButton">Reset Grid</button>
+            <button id="darkMode"><i class="fas fa-moon"></i></button>
+        </div>
+        <div class="instruction-and-color-code">
+            <div class="instructions">
+                <h2>Instructions:</h2>
+                <ul>
+                    <li>Click <b>Set Start Node</b> and then click on a cell to place the start node.</li>
+                    <li>Click <b>Set End Node</b> and then click on a cell to place the end node.</li>
+                    <li>Click <b>Draw Obstacles</b> and then click on cells to draw obstacles.</li>
+                    <li>Click <b>Find Path</b> to visualize the shortest path from start to end node.</li>
+                    <li>Click <b>Reset Grid</b> to clear the grid and start over.</li>
+                </ul>
+            </div>
+            <div class="color-code">
+                <h2>Color Code:</h2>
+                <div class="color-item">
+                    <div class="color-box start"></div>
+                    <span>Start Node</span>
+                </div>
+                <div class="color-item">
+                    <div class="color-box end"></div>
+                    <span>End Node</span>
+                </div>
+                <div class="color-item">
+                    <div class="color-box obstacle"></div>
+                    <span>Obstacle</span>
+                </div>
+                <div class="color-item">
+                    <div class="color-box visited"></div>
+                    <span>Visited</span>
+                </div>
+                <div class="color-item">
+                    <div class="color-box path"></div>
+                    <span>Path</span>
+                </div>
+            </div>
+        </div>
+        <div id="result"></div>
+    </main>
+    
+    <script src="PathFindingScripts.js"></script>
+</body>
+</html>
+
