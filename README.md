@@ -1,4 +1,4 @@
-AlgoWizz - The Algorithm Visualizer
+# AlgoWizz - The Algorithm Visualizer
 
 AlgoWizz is an interactive tool designed to visualize and compare various sorting and path finding algorithms, providing a user-friendly interface for understanding complex computational processes.
 
