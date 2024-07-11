@@ -5,8 +5,9 @@ AlgoWizz is an interactive tool designed to visualize and compare various sortin
 Key Features:
 1) Supports multiple sorting algorithms, including Bubble Sort, Quick Sort, and Merge Sort.
 2) Allows users to control array size and sorting speed.
-3) Includes dark mode for a better user experience.
-4) Animated traversal in Dijkstra's Algorithm visualizer.
+3) Color-changing bars to highlight the sorting process.
+4) Includes dark mode for a better user experience.
+5) Animated traversal in Dijkstra's Algorithm visualizer.
 
 Technologies Used:
 1) HTML
